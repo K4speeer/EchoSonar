@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# EchoSonar Sensitive Data
+*.session
+config.yaml
+# Ignore the hidden config folder if you ever move it into the project root
+.config/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Project-specific temp files
+temp_*
